@@ -1,0 +1,58 @@
+.pie-pagina{
+
+    width: 100%;
+    background-color: rgb(36, 36, 187);
+    color: white;
+    margin-top: 20px;
+}
+
+.grupo-1{
+
+    width:100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 0px;
+
+    & .caja {
+
+        text-align: center;
+    }
+
+}
+
+.grupo-2 {
+
+    text-align: center;
+    background-color: blue;
+
+}
+
+
+
+.red-social a {
+
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.caja > h4{
+
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

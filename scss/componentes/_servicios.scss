@@ -1,0 +1,66 @@
+.servicios {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.servicios h3{
+
+    background-color: rgb(36, 36, 187);
+    color: white;
+    font-size: 1.5rem; 
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding:20px;
+    margin:20px;
+}
+
+.card img {
+
+    /* con esto la imagen va a tomar el 100% de su contenenedor padre q es card */
+    width: 100%;
+    margin: 10px;
+
+}
+
+.card h4 {
+    margin: 10px 5px;
+    font-size: 1.3rem;
+}
+
+.card p {
+
+    margin: 20px 5px;
+    font-size: 1rem;
+}
+
+/* .card a{
+    background-color: rgb(36, 36, 187);
+    padding: 5px 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+} */
+
+.boton {
+    background-color: rgb(36, 36, 187);
+    padding: 5px 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+}

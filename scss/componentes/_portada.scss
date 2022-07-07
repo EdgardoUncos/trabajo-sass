@@ -1,0 +1,36 @@
+.portada{
+    width: 100vw;
+    height: 70vh;
+    
+    background-image: url(../images/reparaciones-electronicas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-texto{
+    
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.164);
+
+    
+}
+
+.portada-texto h2{
+    padding: 10px;
+    font-size: 3rem;
+    text-shadow: 5px 5px 5px black;
+}
+
+.portada-texto p{
+    padding: 10px;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px black;
+}
